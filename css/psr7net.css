@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.jumbotron.psr7net {
+  position: relative;
+  overflow: hidden;
+  min-height: 530;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: #fff;
+}
+.jumbotron.psr7net h1,
+.jumbotron.psr7net h1 {
+  font-family: Montserrat, sans-serif;
+}
