@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>PHPカンファレンス福岡2016『HTTPメッセージ - PHPで扱う場合の再入門』用特設ページ</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <style type="text/css">
+  body {
+  }
+  @media ( min-width: 768px ) {
+    #banner {
+      min-height: 300px;
+      border-bottom: none;
+    }
+    .bs-docs-section {
+      margin-top: 8em;
+    }
+    .bs-component {
+      position: relative;
+    }
+    .bs-component .modal {
+      position: relative;
+      top: auto;
+      right: auto;
+      left: auto;
+      bottom: auto;
+      z-index: 1;
+      display: block;
+    }
+    .bs-component .modal-dialog {
+      width: 90%;
+    }
+    .bs-component .popover {
+      position: relative;
+      display: inline-block;
+      width: 220px;
+      margin: 20px;
+    }
+    .nav-tabs {
+      margin-bottom: 15px;
+    }
+    .progress {
+      margin-bottom: 10px;
+    }
+  }
+
+  .special {
+    position: relative;
+    min-height: 300px;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    background-image: url("elephpant2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .content {
+    position: relative;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .special h1{
+    color: #fff;
+    background-color: #339;
+  }
+  .panel{
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+    text-align: left;
+  }
+  .refs h3{
+    color: #000;
+  }
+  </style>
+
+  <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+<div class="container">
+    
+  <div class="special">
+      <h1>『HTTPメッセージ - PHPで扱う場合の再入門』</h1>
+  </div>
+    <div class="content">
+      <div class="heading">PHPカンファレンス福岡2016用特設ページ<br>
+        <br>
+          このページではPHPカンファレンス福岡2016『HTTPメッセージ - PHPで扱う場合の再入門』での参考文献などについて紹介します。
+          <br>※ 発表前後に軽く目を通して頂くと幸いです。<br>
+          発表スライドはこのページにて当日公開予定です。
+        <br>
+<br>
+        <a class="btn btn-info btn-large" href="http://phpcon.fukuoka.jp/">PHPカンファレンス福岡のページへ</a><br><br>
+        
+      </div>
+
+
+      <div class="refs">
+        <h3>主な参考文献・記事</h3>
+          <div class="list-group">
+            <a href="http://www.slideshare.net/do_aki/php-and-sapi-and-zendengine2-and" class="list-group-item">
+              <h4 class="list-group-item-heading">php と sapi と zendengine2 と..</h4>
+              <p class="list-group-item-text">http://www.slideshare.net/do_aki/php-and-sapi-and-zendengine2-and</p>
+            </a>
+            <a href="http://tech.respect-pal.jp/php-helloworld/" class="list-group-item">
+              <h4 class="list-group-item-heading">PHP による hello world 入門</h4>
+              <p class="list-group-item-text">http://tech.respect-pal.jp/php-helloworld/</p>
+            </a>
+            <a href="http://jpauli.github.io/2014/12/19/php-output-buffer-in-deep.html" class="list-group-item">
+              <h4 class="list-group-item-heading">PHP output buffer in deep</h4>
+              <p class="list-group-item-text">http://jpauli.github.io/2014/12/19/php-output-buffer-in-deep.html</p>
+            </a>
+            <a href="https://akrabat.com/wp-content/uploads/2016-04-22-DC4D-PSR7.pdf" class="list-group-item">
+              <h4 class="list-group-item-heading">HTTP, PSR-7 and Middleware</h4>
+              <p class="list-group-item-text">https://akrabat.com/wp-content/uploads/2016-04-22-DC4D-PSR7.pdf</p>
+            </a>
+            <a href="http://www.php-fig.org/psr/psr-7/" class="list-group-item">
+              <h4 class="list-group-item-heading">PSR-7: HTTP message interfaces</h4>
+              <p class="list-group-item-text">http://www.php-fig.org/psr/psr-7/</p>
+            </a>
+            <a href="http://www.php-fig.org/psr/psr-7/meta/" class="list-group-item">
+              <h4 class="list-group-item-heading">PSR-7: HTTP Message Meta Document</h4>
+              <p class="list-group-item-text">http://www.php-fig.org/psr/psr-7/meta/</p>
+            </a>
+          </div>
+
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">セッションサマリー</h3>
+          </div>
+          <div class="panel-body">
+            PHPがWebのために開発され利用され20年。直観的なものであったPHPのAPIも複雑性を生み出す一因となってしまいました。抽象化の理解とその導入が煩雑さを避けるために必要となります。HTTPメッセージ利用について、PHP自体の機能とPHPプロジェクトでのアーキテクチャの変遷を踏まえつつ、開発者が意識しておきたい点を話したいと思います。PHP-FIG が2015年に策定した PSR-7の紹介を交えながら、SAPI・ストリーム・出力バッファリング・Middlewareについて考えていきます。
+          </div>
+        </div>
+
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <h3 class="panel-title">注意</h3>
+          </div>
+          <div class="panel-body">
+            今回の発表では、以下のトピックを重点的に取りあげる予定はありません。<br/>TCP/IP。HTTP仕様(RFC 2616/7236-7239)。Cookie。PHPのセッション機構。WSGIほか
+          </div>
+        </div>
+
+
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">登壇者について</h3>
+            </div>
+            <div class="panel-body">
+              させざき。長崎県佐世保市生まれ。東京都在住。<br>
+              <a href="https://github.com/zendframework/zendframework/commits/master?author=sasezaki" target="_blank">zendframework</a>や、<a href="https://github.com/php/php-src/commits/master?author=sasezaki" target="_blank">php-src</a>などの各プロジェクトへの細かすぎるツッコミ活動に従事。
+              過去の主な発表は、PHPカンファレンス2011での<a href="http://www.slideshare.net/sasezaki/php-9151036" target="_blank">『これからのPHPライブラリとパッケージマネージメントの話をしよう』</a>など。
+            </div>
+          </div>
+
+
+        <h3>おまけのリンク</h3>
+          <div class="list-group">
+            <a href="http://sasezaki.hatenablog.com/entry/2015/03/07/195908" class="list-group-item">
+              <h4 class="list-group-item-heading">PHP - 憂鬱な希望としての PSR-7</h4>
+              <p class="list-group-item-text">http://sasezaki.hatenablog.com/entry/2015/03/07/195908</p>
+            </a>
+            <a href="https://gistlog.co/sasezaki/fb703148b0542d61f0bb" class="list-group-item">
+              <h4 class="list-group-item-heading">ストリーム 関連のプロジェクトの話</h4>
+              <p class="list-group-item-text">https://gistlog.co/sasezaki/fb703148b0542d61f0bb<br>
+              PSR-7がストリーム利用ということで作成したコンポーネントに対する説明</p>
+            </a>
+            <a href="http://psr7.net/sasezaki/slide20150620/" class="list-group-item">
+              <h4 class="list-group-item-heading">Symfony ユーザ向け psr-7 zend-diactoros Middleware入門</h4>
+              <p class="list-group-item-text">http://psr7.net/sasezaki/slide20150620/<br>
+              2015/06/20 Symfony Meetupでのスライド</p>
+            </a>
+          </div>
+
+
+      </div><!--refs -->
+
+  </div>
+
+</div>
+
+
+</body>
+</html>
